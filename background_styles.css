@@ -1,0 +1,35 @@
+.grid-item {
+    min-height: 50px;
+    margin: 2px;
+    width: 100%;
+}
+
+.grid-item-1 {
+    background: rgb(124, 213, 240);
+    font-weight: bold;
+    color: white;
+    content: "Grid 1";
+}
+.grid-item-1::before {
+    font-weight: bold;
+    color: black;
+    content: "Grid 1";
+}
+
+.grid-item-2 {
+    background: rgb(97, 184, 211);
+}
+.grid-item-2::before {
+    font-weight: bold;
+    color: black;
+    content: "Grid 2";
+}
+
+.grid-item-3 {
+    background: rgb(124, 213, 240);
+}
+.grid-item-3::before {
+    font-weight: bold;
+    color: black;
+    content: "Grid 3";
+}
